@@ -8,11 +8,11 @@ A dual-mode smart home automation system that uses **NodeMCU (ESP8266)** and the
 
 | Control Type | Preview |
 |--------------|---------|
-| Hardware | ![Hardware Setup](![image](https://github.com/user-attachments/assets/47cbd649-a151-4601-8620-8ac02e9e4992)
+| Hardware | (![image](https://github.com/user-attachments/assets/47cbd649-a151-4601-8620-8ac02e9e4992)
 ) |
-| Web Control | ![Blynk Web Dashboard](![image](https://github.com/user-attachments/assets/82d0b376-a526-412e-a175-cb1b4e86a497)
+| Web Control | (![image](https://github.com/user-attachments/assets/82d0b376-a526-412e-a175-cb1b4e86a497)
 ) |
-| Mobile Control | ![Blynk App Control](![image](https://github.com/user-attachments/assets/9a821aba-3a1f-409a-914b-bc087911f275)
+| Mobile Control | (![image](https://github.com/user-attachments/assets/9a821aba-3a1f-409a-914b-bc087911f275)
 ) |
 
 ---
@@ -20,7 +20,8 @@ A dual-mode smart home automation system that uses **NodeMCU (ESP8266)** and the
 ## 🔧 Project Overview
 
 - **Microcontroller**: NodeMCU ESP8266
-- ![image](https://github.com/user-attachments/assets/d402fbf3-bc6e-4891-8f13-e6c23bd4e2ff)
+- ![image](https://github.com/user-attachments/assets/70126458-310c-4e25-b5a7-871eeea78e3d)
+
 
 - **Control Modes**: Manual Push Buttons + Blynk Mobile/Web App
 - ![image](https://github.com/user-attachments/assets/e7eb4f79-deb0-487b-913c-7cc4d5323ed9)
@@ -52,8 +53,6 @@ A dual-mode smart home automation system that uses **NodeMCU (ESP8266)** and the
 ---
 
 ## 📶 Data Flow
-
-```mermaid
 graph TD
 A[User sends command from Blynk App/Web] --> B[Blynk Server]
 B --> C[NodeMCU receives command via Wi-Fi]
@@ -61,7 +60,8 @@ C --> D[Relay toggled via GPIO]
 D --> E[Light ON/OFF]
 E --> F[Status sent back to Blynk]
 
-![image](https://github.com/user-attachments/assets/535888af-bde0-46ac-814e-19759f9386fd)
+![image](https://github.com/user-attachments/assets/91fea95e-248e-424c-8b7d-9682e64beb5e)
+
 
 ## 🔁 Dual-Mode Input
 
@@ -127,7 +127,7 @@ E --> F[Status sent back to Blynk]
 
 ## 👨‍💻 Contributors
 
-- [Vamshi](https://github.com/classyvamshi)  
+- [Vamshi](https://github.com/KotaVenkataVamshidharreddy/Home-Automation-with-pushbutton.git)  
 - Tharun Kumar  
 - Surya Teja  
 - Rama Krishna Prasad
